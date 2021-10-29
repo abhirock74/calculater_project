@@ -31,7 +31,7 @@ form{
     border-radius: .8vw;
 }
 body{
-    background-color: cyan;
+    background-image: url(./background_img.jpg);
 }
 .button:hover{
     border: 2px solid rgb(230, 227, 227);
@@ -40,6 +40,8 @@ body{
     text-align: center;
     font-size: 5vw;
     margin-top: 2vw;
+    border: 5px solid red;
+    background-color: rgba(0, 0, 0, 0.356);
 }
 
 @media only screen and (max-width:360px) and (orientation:portrait){
