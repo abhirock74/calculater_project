@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    width: 100%;
+    height: 10vw;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 2px 3px 8px rgb(58, 52, 52);
+}
+#cal-body{
+    width: 60%;
+    height: 34vw;
+    background-color: rgba(100, 148, 237, 0.548);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#display{
+    width: 80%;
+    height: 10vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.display{
+    width: 66%;
+    height: 8vw;
+    background-color: rgba(252, 252, 253, 0.651);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1.5vw;
+}
+#button{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; 
+
+}
+button{
+    width: 20%;
+    height: 5vw;
+}
+
+
+
+
+
+@media only screen and (max-width:767px){
+    body{
+    
+    }
+}
