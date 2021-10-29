@@ -2,52 +2,140 @@
     margin: 0%;
     padding: 0%;
 }
-#header{
+.calculator{
+    width: 30%;
+    height: 30vw;
+    background-color: black;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3vw;
+    border-radius: 1.5vw;
+}
+form{
     width: 100%;
-    height: 10vw;
-    background-color: aquamarine;
-    text-align: center;
-    font-size: 3vw;
-    text-shadow: 2px 3px 8px rgb(58, 52, 52);
-}
-#cal-body{
-    width: 60%;
-    height: 34vw;
-    background-color: rgba(100, 148, 237, 0.548);
-    margin-left: 20%;
-    margin-right: 20%;
-}
-#display{
-    width: 80%;
-    height: 10vw;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 .display{
-    width: 66%;
-    height: 8vw;
-    background-color: rgba(252, 252, 253, 0.651);
+    width: 80%;
+    height: 5vw;
+    margin-top: 1.8vw;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1.5vw;
+    font-size: 2vw;
+    border-radius: .8vw;
 }
-#button{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%; 
-
+.button{
+    width: 5vw;
+    margin-left: 1.8vw;
+    height: 4vw;
+    margin-top: 1vw;
+    border-radius: .8vw;
 }
-button{
-    width: 20%;
-    height: 5vw;
+body{
+    background-color: cyan;
+}
+.button:hover{
+    border: 2px solid rgb(230, 227, 227);
+}
+.cal{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 2vw;
 }
 
+@media only screen and (max-width:360px) and (orientation:portrait){
+    .calculator{
+        width: 80%;
+        height: 80vw;
+        background-color: black;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10vw;
+        border-radius: 1.5vw;
+    }
+    .display{
+        width: 80%;
+        height: 15vw;
+        margin-top: 5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 5vw;
+        border-radius: 1vw;
+    }
+    .button{
+        width: 13vw;
+        margin-left: 5vw;
+        height: 8vw;
+        margin-top: 4vw;
+        border-radius: .8vw;
+    }
+    .cal{
+        text-align: center;
+        font-size: 10vw;
+        margin-top: 4vw;
+    }
+}
+@media only screen and (max-width:414px) and (orientation:portrait){
+    .calculator{
+        width: 80%;
+        height: 80vw;
+        background-color: black;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10vw;
+        border-radius: 1.5vw;
+    }
+    .display{
+        width: 80%;
+        height: 15vw;
+        margin-top: 5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 5vw;
+        border-radius: 1vw;
+    }
+    .button{
+        width: 13vw;
+        margin-left: 5vw;
+        height: 8vw;
+        margin-top: 4vw;
+        border-radius: .8vw;
+    }
+    .cal{
+        text-align: center;
+        font-size: 10vw;
+        margin-top: 4vw;
+    }
+}
+@media only screen and (width:540px) and (orientation:portrait){
 
-
-
-
-@media only screen and (max-width:767px){
-    body{
-    
+    .calculator{
+        width: 80%;
+        height: 80vw;
+        background-color: black;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10vw;
+        border-radius: 1.5vw;
+    }
+    .display{
+        width: 80%;
+        height: 15vw;
+        margin-top: 5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 5vw;
+        border-radius: 1vw;
+    }
+    .button{
+        width: 13vw;
+        margin-left: 5vw;
+        height: 8vw;
+        margin-top: 4vw;
+        border-radius: .8vw;
+    }
+    .cal{
+        text-align: center;
+        font-size: 10vw;
+        margin-top: 4vw;
     }
 }
